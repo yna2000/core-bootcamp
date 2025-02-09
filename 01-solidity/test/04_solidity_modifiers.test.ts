@@ -14,7 +14,6 @@ describe("SolidityModifiers", function () {
       "SolidityModifiers"
     );
     const INITIAL_BALANCE = 1_000_000;
-
     const ctcSolidityModifiers = await SolidityModifiers.deploy(
       INITIAL_BALANCE,
       account1
